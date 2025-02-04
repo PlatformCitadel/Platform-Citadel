@@ -12,6 +12,7 @@
 #include "CryptoNoteConfig.h"
 
 #include <boost/optional.hpp>
+#include <memory>
 #include <numeric>
 #include <unordered_set>
 

@@ -5,7 +5,8 @@
 
 #pragma once
 
-#include <string>
+#include <cstring>
+#include <memory>
 #include <vector>
 #include <boost/variant.hpp>
 

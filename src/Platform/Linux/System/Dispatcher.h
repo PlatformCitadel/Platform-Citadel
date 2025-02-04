@@ -6,9 +6,11 @@
 #pragma once
 
 #include <cstddef>
+#include <cstdint>
 #include <functional>
 #include <queue>
 #include <stack>
+#include <stdexcept>
 
 namespace System {
 
