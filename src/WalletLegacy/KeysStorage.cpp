@@ -9,6 +9,8 @@
 #include "Serialization/ISerializer.h"
 #include "Serialization/SerializationOverloads.h"
 #include "CryptoNoteCore/CryptoNoteSerialization.h"
+#include <string>
+#include <cstring>
 
 namespace CryptoNote {
 
