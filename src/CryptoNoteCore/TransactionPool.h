@@ -32,6 +32,7 @@
 #include "CryptoNoteCore/BlockchainIndices.h"
 
 #include <Logging/LoggerRef.h>
+#include<list>
 
 namespace CryptoNote {
 
