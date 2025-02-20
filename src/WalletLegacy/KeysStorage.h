@@ -6,8 +6,9 @@
 #pragma once
 
 #include "crypto/crypto.h"
-
 #include <stdint.h>
+#include <string>
+#include <cstring>
 
 namespace CryptoNote {
 
