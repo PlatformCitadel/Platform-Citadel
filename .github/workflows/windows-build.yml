@@ -34,7 +34,7 @@ jobs:
             boost-serialization:$triplet `
             boost-program-options:$triplet
 
-           - name: Configure
+      - name: Configure
         shell: powershell
         run: |
           cmake -S . -B build -G "Visual Studio 17 2022" -A x64 `
