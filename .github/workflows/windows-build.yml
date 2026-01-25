@@ -30,6 +30,7 @@ jobs:
             boost-crc:$triplet `
             boost-multi-index:$triplet `
             boost-uuid:$triplet `
+            boost-scope-exit:$triplet `
             boost-system:$triplet `
             boost-filesystem:$triplet `
             boost-thread:$triplet `
