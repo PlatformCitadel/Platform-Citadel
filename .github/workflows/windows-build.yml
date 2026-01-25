@@ -25,6 +25,11 @@ jobs:
         run: |
           $triplet = "x64-windows"
           & $env:GITHUB_WORKSPACE\vcpkg\vcpkg.exe install `
+            boost-asio:$triplet `
+            boost-foreach:$triplet `
+            boost-crc:$triplet `
+            boost-multi-index:$triplet `
+            boost-uuid:$triplet `
             boost-system:$triplet `
             boost-filesystem:$triplet `
             boost-thread:$triplet `
